@@ -1,0 +1,52 @@
+.navbar {
+	background: #03A9F4;
+	background: linear-gradient(148deg, #1A2980 45%, #151C47);
+	background: #63757E;
+	background: #2A2D33;
+	border-bottom: none;
+	background: #ffffff;
+	.container-fluid {
+		.navbar-brand {
+			font-family: 'Norican', cursive;
+			font-size: 24px;
+			color: #000;
+			left: 0;
+			margin: auto;
+			position: absolute;
+			right: 0;
+			width: 150px;
+			z-index: 1;
+		}
+	}
+	.navbar-nav {
+		li {
+			a {
+				color: #a9a9a9;
+				&:hover,
+				&:focus {
+				 	background: #f8f8f8;
+				 	color: #000;
+				}
+			}
+			&.active {
+				a {
+					background: #f8f8f8;
+					box-shadow: 0 3px 0 #4cd964 inset;
+					color: #000;
+				}
+			}
+		}
+		&.navbar-right {
+			li {
+				min-width: 60px;
+				a:hover {
+					background: #2b3445;
+					color: #FFF;
+				}
+				i {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

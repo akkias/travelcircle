@@ -1,0 +1,22 @@
+* {
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-ms-transition: all .2s;
+	-o-transition: all .2s;
+}
+body {
+	background: #E9E9E9;
+	color: #3e4853;
+	font-family: arimo;
+	padding-top: 60px;
+}
+a:hover {
+	color: #14AFE4;
+	text-decoration: none;
+}
+.cover {
+	height: 450px;
+	background: url(../images/cover.jpg) no-repeat center -180px;
+	background: url(../images/urbex_cover.jpg) no-repeat center;
+	background-size: cover !important;
+}
